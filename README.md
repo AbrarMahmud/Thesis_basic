@@ -6,6 +6,20 @@
 --> probable fix:
 https://github.com/huggingface/transformers/issues/25183#issuecomment-1769312607
 
-*My soln1*: initiate separate env (conda create --name your_environment_name python=3.10)
+**My soln1**: 
 
-then try to edit the src filr audioutils.py from transformers lib(Within the env)
+initiate separate env (conda create --name Thesis_basic_code1 python=3.10)
+
+then copy audioutils.py and edit it locally , save it ae custom_audioutils.py
+
+then run "from custom_audio_utils import custom_ffmpeg_microphone_live" in jupyter sketch
+
+Then inside the anaconda enviroment run:conda install conda-forge::ffmpeg
+
+Then after run:ffmpeg -list_devices true -f dshow -i dummy to find the device name
+
+for my machine :--->Microphone Array (Realtek High Definition Audio)
+
+replace this name according to:https://github.com/huggingface/transformers/issues/25183#issuecomment-1769312607 in my custom_audioutils.py
+
+and finally the code ran..................
