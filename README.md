@@ -1,7 +1,7 @@
 # Thesis_basic
 
 ## Week 5(after) 
--->Problem faced: Windows ffmpeg compatibility issue
+## -->Problem faced: Windows ffmpeg compatibility issue
 
 --> probable fix:
 https://github.com/huggingface/transformers/issues/25183#issuecomment-1769312607
@@ -23,3 +23,8 @@ for my machine :--->Microphone Array (Realtek High Definition Audio)
 replace this name according to:https://github.com/huggingface/transformers/issues/25183#issuecomment-1769312607 in my custom_audioutils.py
 
 and finally the code ran..................
+
+
+## Problem faced: 
+The kernel for OneDrive - BUET/L-4_T-1/Thesis/basic_code1/Hugging_face_unit7.ipynb appears to have died. It will restart automatically.
+
