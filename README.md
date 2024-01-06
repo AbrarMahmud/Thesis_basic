@@ -37,3 +37,9 @@ In my system ,The mic requires initialiazion time so by adding some delay (runni
 while trying to run TTS(Test-To-Speech) This erroe is shown:  cannot load library 'libsndfile.dll': error 0x7e
 
 **My soln1**:
+followed this:
+https://github.com/bastibe/python-soundfile/issues/373#issuecomment-1475274115
+
+then pip uninstall soundfile
+
+pip install soundfile
