@@ -30,4 +30,4 @@ and finally the code ran..................
 The kernel for OneDrive - BUET/L-4_T-1/Thesis/basic_code1/Hugging_face_unit7.ipynb appears to have died. It will restart automatically.
 
 **My soln1**:
-
+In my system ,The mic requires initialiazion time so by adding some delay (running the mic without transcriber() for few iteration) i was able to by pass the error *"UnboundLocalError: local variable 'item' referenced before assignment"*
