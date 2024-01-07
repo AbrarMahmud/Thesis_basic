@@ -1,6 +1,6 @@
 # Thesis_basic
 
-## Week 5(after) 
+## Week 6
 ## -->Problem faced: 
 Windows ffmpeg compatibility issue
 
@@ -43,3 +43,11 @@ https://github.com/bastibe/python-soundfile/issues/373#issuecomment-1475274115
 then pip uninstall soundfile
 
 pip install soundfile
+
+
+## Week 7:
+
+## -->Trying out Conversational NLPs:
+
+
+
