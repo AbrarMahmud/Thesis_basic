@@ -49,5 +49,8 @@ pip install soundfile
 
 ## -->Trying out Conversational NLPs:
 
+## --> Voice Activity Detection:
+
+
 
 
