@@ -50,7 +50,7 @@ pip install soundfile
 ## -->Trying out Conversational NLPs:
 
 ## --> Voice Activity Detection:
-
+https://herve.niderb.fr/fastpages/2022/10/23/One-speaker-segmentation-model-to-rule-them-all
 
 
 
