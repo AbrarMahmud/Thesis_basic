@@ -50,7 +50,12 @@ pip install soundfile
 ## -->Trying out Conversational NLPs:
 
 ## --> Voice Activity Detection:
+I plan to use VAD from pyannote.audio
 https://herve.niderb.fr/fastpages/2022/10/23/One-speaker-segmentation-model-to-rule-them-all
+
+The link given below is on Training a voice activity detection pipeline from scratch with pyannote.audio
+
+https://github.com/pyannote/pyannote-audio/blob/9e4ec5f6e0b0f5d60c557981fc680e8cebf78f5b/tutorials/voice_activity_detection.ipynb
 
 
 
