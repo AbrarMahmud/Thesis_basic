@@ -61,4 +61,10 @@ https://github.com/pyannote/pyannote-audio/blob/9e4ec5f6e0b0f5d60c557981fc680e8c
 A problem that i am facing is pyannote/voice-activity-detection pipeline uses "x.wav" file format but mic outputs np.arrray()
 
 
+## -->Energy based approach:
+
+
+**Note:** Hugging Face Transformers pipelines, by design, consume the input data provided to them, and they are typically designed for one-time use. Once the data has been processed, the pipeline object is no longer usable for further inferences with the same input data. This design choice ensures that the pipeline state is clean for each new inference.
+
+
 
