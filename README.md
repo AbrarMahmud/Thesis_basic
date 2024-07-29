@@ -36,6 +36,13 @@ In my system ,The mic requires initialiazion time so by adding some delay (runni
 ## -->Problem faced:
 while trying to run TTS(Test-To-Speech) This erroe is shown:  cannot load library 'libsndfile.dll': error 0x7e
 
+
+## -->Problem faced:
+linux jupyter notebook is blank
+
+**My sol1**
+after opening jupyter notebook on broswer press "ctrl+f5" to force restart the page. 
+
 **My soln1**:
 followed this:
 https://github.com/bastibe/python-soundfile/issues/373#issuecomment-1475274115
