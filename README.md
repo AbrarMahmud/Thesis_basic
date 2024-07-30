@@ -26,7 +26,7 @@ replace this name according to:https://github.com/huggingface/transformers/issue
 and finally the code ran..................
 
 
-**My soln1**:(linux)
+**My soln2**:(linux)--->this will not work with py torch
 first install ffmpeg in original linux terminal using the command:
 *sudo apt install ffmpeg libasound2 alsa-utils*
 
@@ -36,6 +36,10 @@ then create a separate conda env using pytho n 3.8.10(not the base coda python 3
 
 activate the conda env but do not use cona install ffmpeg(the base env ffmpeg is already available here)
 
+## **My soln2**
+but then after following this ,i got the proper result:
+
+ https://github.com/pytorch/vision/issues/7508#issuecomment-1803100199
 
 
 
