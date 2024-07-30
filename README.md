@@ -26,6 +26,19 @@ replace this name according to:https://github.com/huggingface/transformers/issue
 and finally the code ran..................
 
 
+**My soln1**:(linux)
+first install ffmpeg in original linux terminal using the command:
+*sudo apt install ffmpeg libasound2 alsa-utils*
+
+
+then create a separate conda env using pytho n 3.8.10(not the base coda python 3.11)
+*conda create -n ug_thesis python=3.8.10*
+
+activate the conda env but do not use cona install ffmpeg(the base env ffmpeg is already available here)
+
+
+
+
 ## -->Problem faced: 
 The kernel for OneDrive - BUET/L-4_T-1/Thesis/basic_code1/Hugging_face_unit7.ipynb appears to have died. It will restart automatically.
 
@@ -37,11 +50,7 @@ In my system ,The mic requires initialiazion time so by adding some delay (runni
 while trying to run TTS(Test-To-Speech) This erroe is shown:  cannot load library 'libsndfile.dll': error 0x7e
 
 
-## -->Problem faced:
-linux jupyter notebook is blank
 
-**My sol1**
-after opening jupyter notebook on broswer press "ctrl+f5" to force restart the page. 
 
 **My soln1**:
 followed this:
@@ -73,5 +82,13 @@ A problem that i am facing is pyannote/voice-activity-detection pipeline uses "x
 
 **Note:** Hugging Face Transformers pipelines, by design, consume the input data provided to them, and they are typically designed for one-time use. Once the data has been processed, the pipeline object is no longer usable for further inferences with the same input data. This design choice ensures that the pipeline state is clean for each new inference.
 
+## -->Problem faced:
+linux jupyter notebook is blank
+
+**My sol1**
+after opening jupyter notebook on broswer press "ctrl+f5" to force restart the page. 
+
+**My sol2**(better)
+delete browser history
 
 
