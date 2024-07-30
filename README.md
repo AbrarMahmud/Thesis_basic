@@ -65,6 +65,13 @@ then pip uninstall soundfile
 pip install soundfile
 
 
+## -->Problem faced:
+in linux pyaudio conda was not working
+
+**My soln1**
+follow this link:
+https://github.com/ContinuumIO/anaconda-issues/issues/4139#issuecomment-479684029
+
 ## Week 7:
 
 ## -->Trying out Conversational NLPs:
